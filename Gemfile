@@ -33,8 +33,9 @@ gem 'jbuilder', '~> 2.5'
 # Responders gem for DRY-er code and so we can follow the guide
 gem 'responders'
 
-# Adding React
+# JS stuff
 gem 'react-rails'
+gem 'momentjs-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
