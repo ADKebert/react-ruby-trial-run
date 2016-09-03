@@ -1,8 +1,8 @@
 var Main = React.createClass({
   render () {
-    return <div>
-        <h2>Hello World Ruby and React Together At Last!</h2>
+    return <div className="Main">
         <Header />
+        <Body />
       </div>
   }
-});
+})

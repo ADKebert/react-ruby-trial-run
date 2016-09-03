@@ -1,8 +1,7 @@
 var Header = React.createClass ({
   render () {
-    return <header>
-      <h1>This is starting to make sense</h1>
-      <AllShapes />
-    </header>
+    return <div className="Header">
+      <h1>Ruby and React: Together at Last</h1>
+    </div>
   }
 })

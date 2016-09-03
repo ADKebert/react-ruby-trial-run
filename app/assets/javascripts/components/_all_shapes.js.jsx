@@ -12,6 +12,10 @@ var AllShapes = React.createClass({
       let date = moment(shape.created_at).format('YYYY MM DD')
       return <li key={i}>{shape.name} : {shape.color} : {date}</li>
     })
-     return <ul>{allShapes}</ul>
+     return <div className="AllShapes">
+        <ul>
+          {allShapes}
+        </ul>
+      </div>
   }
 })
