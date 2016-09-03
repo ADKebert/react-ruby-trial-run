@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Shape.create(name: "Circle", color: "Blue")
+Shape.create(name: "Square", color: "Orange")
+Shape.create(name: "Octogon", color: "Green")
+Shape.create(name: "Triangle", color: "Purple")
+Shape.create(name: "Heart", color: "Red")
