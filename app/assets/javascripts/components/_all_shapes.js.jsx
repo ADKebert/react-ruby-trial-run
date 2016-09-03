@@ -9,7 +9,8 @@ var AllShapes = React.createClass({
 
   render() {
     const allShapes = this.state.shapes.map((shape, i) => {
-      return <li key={i}>{shape.name}</li>
+      let date = moment(shape.created_at).format('YYYY MM DD')
+      return <li key={i}>{shape.name} : {shape.color} : {date}</li>
     })
      return <ul>{allShapes}</ul>
   }
