@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+ body{
+   background-image: url('http://cdn.wallpapersafari.com/28/25/0Bqzai.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ .Header {
+   font-size: 1em;
+   text-decoration: underline;
+   background-color: white;
+   box-shadow: 2px 2px 2px black;
+   text-align: center;
+ }
+
+ .shapes {
+   border: 2px solid black;
+   margin-bottom: 10px;
+   padding: 10px;
+ }
+
+ button {
+   margin: 5px;
+ }
+
+ input {
+   width: 150px;
+ }
