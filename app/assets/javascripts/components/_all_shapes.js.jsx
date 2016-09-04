@@ -1,6 +1,14 @@
-var AllShapes = React.createClass({
-
+const AllShapes = React.createClass({
   render() {
-    return <Shape edit={this.props.edit} delete={this.props.delete} shapes={this.props.shapes} />
-  }
+    const shapes = this.props.shapes.map((shape) => {
+      return <div key={shape.id}>
+          <Shape shape={shape}
+                delete={this.props.delete}
+                edit={this.props.edit} />
+        </div>
+      })
+      return <div className="Shapes">
+          {shapes}
+        </div>
+    }
 })
